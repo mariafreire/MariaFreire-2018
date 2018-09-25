@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:600,800');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600');
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+a{
+	background-color: #F8F9FA;
+}
+h2{
+	font-family: 'Roboto';
+	font-weight: 700;
+}
+body > div > h3{
+	color: #F8F9FA;
+	font-family: 'Roboto';
+	font-weight: 400;
+}
+strong{
+	font-weight: 700;	
+}
+nav{
+	font-size: 140%;
+	background-color: #F8F9FA;
+}
+.content-font{
+	font-family: 'Roboto';
+	font-size: 120%;
+}
+.fixed-top {
+	padding: 100%;
+}
+#logo{
+	margin-left: 5%;
+	font-size: 160%;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+#home{
+	text-align: center;
+	background-color: #3587A4;
+	padding-top: 130px;
+	padding-bottom: 60px;
+	max-width: 100%;
+}
+#content-color{
+	color: #F8F9FA;
+	font-size: 130%;
+	font-family: 'Open Sans';
+	font-weight: lighter;
+	padding: 5% 5% 0 0 ;
+}
+#education{
+	color: #333333;
+	padding: 130px 0 20px;
+	font-size: 120%;
+	text-align: center; 
+}
+body > div > .container{
+	padding-left: 200px;
+	text-align: left;
+}
+#educ-content{
+	padding-top: 45px;
+}
+#skills{
+	background-color: #2D898B;
+	padding: 130px;
+	font-family: 'Open Sans';
+	color: #F8F9FA;
+	font-size: 120%;
+	padding: 130px 0 60px 0 ;		
+}
+body > div > #row2{
+	padding-top: 40px;
+}
+body > div > .icon-name{
+	padding-left: 40px;
+}
+#icon{
+	width: 180px;
+	height: auto;
+	padding: 5px;
+}
+#hobbies{
+	padding: 130px 0 40px;
+}
+#contact{
+	background-color: #606060;
+	color: #F8F9FA;
+	padding: 160px 0 180px 
+}
+.connect-font{
+	font-size: 500%;
+	padding: 15px;
+}
+body > div > a {
+    color: #DDDDDD;
+}
+body > div > a:hover {
+    color: #4D4D4D;
+}
+footer{
+	color: #F8F9FA;
+	text-align: center;
+	font-family: 'Open Sans';
+	font-weight: 300;
+	background-color: gray;
+	padding: 30px 0 30px
+}
+.fas fa-phone, far fa-envelope{
+	padding: 5px;
+}
+/*----Media!!!!----*/
+@media screen and (max-width: 768px){
+	h2{
+		font-size: 150%;
+	}
+	h3{
+		font-size: 125%;
+	}
+	p{
+		font-size: 120%;
+	}
+	#logo{
+		margin: 15px 0 20px -25px;
+		background: url(img/RD_mobile.png) no-repeat center;
+	}
+	nav ul, nav:active ul{
+		display: none;
+		z-index: 1000;
+		position: absolute;
+		padding: 20px;
+		background: #6991AC;
+		right: 20px;
+		top: 60px;
+		border: 1px solid #FFF;
+		border-radius: 2px 0 2px 2px;
+		width: 50%;
+	}
+	nav:hover ul{
+		display: block;
+	}
+	nav li {
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+	}
+	article{
+		width: 100%;
+	}
+	aside{
+		width: 100%;
+	}
+}

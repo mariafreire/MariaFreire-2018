@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+html {
+	background-image: url("img/asphalt.jpg");
+	background-color: #F5F5DC;
+}
+
+
+body {
+ 	box-sizing: border-box;
+ 	box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.25);
+  	padding: 55px;
+  	max-width: 960px;
+  	margin: 0 auto;
+  	margin-top: 24px;
+  	margin-bottom: 24px;
+  	line-height: 20px;
+  	font-size: 18px;
+  	font-family: Calibri, Helvetica, Arial;
+  	background-color: #FFFFFF; 
+}
+
+section{
+	color: #009699;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+table{
+	width: 140%;
+	font-weight: lighter;
+	color: #000000;
+	font-size: 18px;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+#mf{
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.line{
+	font-size: 18px;
+	color: #000000;
+	font-weight: lighter;
+}
+
+@media (min-width: 768px) {
+    body {
+      padding: 65px; } }
+  
+@media (min-width: 992px) {
+    body {
+      max-width: 960px;
+      margin-top: 24px;
+      margin-bottom: 24px;
+      box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.25); } 
+  }
