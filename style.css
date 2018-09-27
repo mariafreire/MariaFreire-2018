@@ -126,7 +126,7 @@ footer{
 		font-size: 120%;
 	}
 	#logo{
-		margin: 15px 0 20px -25px;
+		margin: 15px 0 20px 0px;
 		background: url(img/RD_mobile.png) no-repeat center;
 	}
 	nav ul, nav:active ul{
