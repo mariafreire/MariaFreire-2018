@@ -142,12 +142,14 @@ footer{
 		width: 50%;
 	}
 	#education{
-		margin: -55px 0px 0px -70px;
+		margin: 0px 0px 0px 0px;
 	}
 	body > div > #educ-content{
-		margin: 0px 0px 0px 130px;
-	
-}
+		margin: 0px 0px 0px 0px;
+        }
+	body > div > .container{
+		padding-left: 110px;
+		text-align: left;
 	#skills{
 		margin: 0px 0px 0px 0px;
 	}
