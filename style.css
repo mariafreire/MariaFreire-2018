@@ -141,6 +141,16 @@ footer{
 		border-radius: 2px 0 2px 2px;
 		width: 50%;
 	}
+	#education{
+		margin: -55px 0px 0px -70px;
+	}
+	body > div > #educ-content{
+		margin: 0px 0px 0px 130px;
+	
+}
+	#skills{
+		margin: 0px 0px 0px 0px;
+	}
 	nav:hover ul{
 		display: block;
 	}
