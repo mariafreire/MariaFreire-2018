@@ -54,8 +54,28 @@ ul {
 }
 
 @media (min-width: 768px) {
-    body {
-      padding: 65px; } }
+body {
+  	padding: 25px;
+  	width: 100%;
+  	margin: 0 auto;
+  	margin-top: 0px;
+  	margin-bottom: 0px;}
+table{
+	width: 100%;
+	font-weight: lighter;
+	color: #000000;
+	font-size: 16px;}
+section{
+	font-size: 14px;}
+#mf{
+	font-size: 30px;
+	font-weight: bold;}
+.line{
+	font-size: 16px;
+	color: #000000;
+	font-weight: lighter;}	
+}
+
   
 @media (min-width: 992px) {
     body {
