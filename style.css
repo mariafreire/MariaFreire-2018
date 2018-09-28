@@ -153,6 +153,21 @@ footer{
 	#skills{
 		margin: 0px 0px 0px 0px;
 	}
+		
+	.connect-font{
+		font-size: 300%;
+		padding: 10px;
+	}	
+
+	#icon{
+		width: 100px;
+		height: auto;
+		padding: 0px;
+	}
+	
+	#contact,#hobbies,#skills, #education {
+		padding: 60px 0 60px 
+	}	
 	nav:hover ul{
 		display: block;
 	}
