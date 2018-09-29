@@ -16,13 +16,13 @@
   </head>
   <body>
     <!--Navbar starts-->
-    <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center fixed-top">
+    <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center fixed-top" >
         <div class="navbar-brand d-flex w-50 mr-auto" id="logo">Maria Freire</div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
         <span class="navbar-toggler-icon"></span>
         </button>
         <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
-          <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+          <ul class="nav navbar-nav ml-auto w-100 justify-content-end" data-toggle="collapse" data-target=".navbar-collapse.show">
             <li class="nav-item">
               <a class="nav-link" href="#home">Home</a>
             </li>
@@ -36,7 +36,7 @@
               <a class="nav-link" href="#hobbies">Hobbies</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="cv.html">Resume</a>
+              <a class="nav-link" href="cv.html" target="_blank">Resume</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
@@ -91,7 +91,7 @@
             <div class="short-div">Brasilia, DF, Brazil</div>
           </div>
         </div><!--- End row --->
-      </div><!--- End 2 of 2 container --->
+      </div id="educ"><!--- End 2 of 2 container --->
       <img src="img/education.png" id="educ-content">
     </div><!--- End Education div --->
     <!--- Start Skills --->
@@ -125,7 +125,7 @@
             <h3 style="padding-left: 80px;">C#</h3>
           </div>
           <div class="col-sm-4">
-            <img src="img/javascript.png" id="icon" width="160px" height="auto">
+            <img src="img/javascript.png" id="icon" width="30px" height="auto">
             <h3 style="padding-left: 20px;">JAVASCRIPT</h3>
           </div>
           <div class="col-sm-4">
@@ -146,10 +146,9 @@
     <div id="contact" class="container-fluid text-center" >
     <h2>Contact</h2>
     <br><br>
-    <h2>Contact</h2>
-    <h3><i class="fas fa-phone"></i>&nbsp;&nbsp;201.898.8758</h3>
-    <h3><i class="far fa-envelope"></i>&nbsp;&nbsp;ofreiremaria@gmail.com</h3>
-    <br><br><br>
+    <h3 id="cont"><i class="fas fa-phone"></i>&nbsp;&nbsp;201.898.8758</h3><br>
+    <h3 id="cont"><i class="far fa-envelope"></i>&nbsp;&nbsp;ofreiremaria@gmail.com</h3>
+    <br><br>
     <!--CV-->
     <a class="connect-font" href="cv.html" target="_blank"><i class="far fa-file-alt"></i></a>
     <!--Linkedin-->
