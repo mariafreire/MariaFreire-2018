@@ -9,7 +9,6 @@ html {
 	background-color: #F5F5DC;
 }
 
-
 body {
  	box-sizing: border-box;
  	box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.25);
@@ -53,34 +52,25 @@ ul {
 	font-weight: lighter;
 }
 
-@media (min-width: 768px) {
-body {
-  	padding: 25px;
-  	width: 100%;
-  	margin: 0 auto;
-  	margin-top: 0px;
-  	margin-bottom: 0px;}
-table{
-	width: 100%;
-	font-weight: lighter;
-	color: #000000;
-	font-size: 16px;}
-section{
-	font-size: 14px;}
-#mf{
-	font-size: 30px;
-	font-weight: bold;}
-.line{
-	font-size: 16px;
-	color: #000000;
-	font-weight: lighter;}	
+@media (max-width: 768px) {
+	#mf{		
+		font-size: 30px;
+		font-weight: bold;}
+	.line{
+		font-size: 16px;
+		color: #000000;
+		font-weight: lighter;}
+	table{
+		width: 100%;
+		font-weight: lighter;
+		color: #000000;
+		font-size: 16px;}
+	body{
+  		padding: 25px;
+  		width: 100%;
+  		margin: 0 auto;
+  		margin-top: 0px;
+  		margin-bottom: 0px;}
+	section{
+		font-size: 14px;}
 }
-
-  
-@media (min-width: 992px) {
-    body {
-      max-width: 960px;
-      margin-top: 24px;
-      margin-bottom: 24px;
-      box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.25); } 
-  }
