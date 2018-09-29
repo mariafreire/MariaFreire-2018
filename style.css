@@ -126,7 +126,7 @@ footer{
 		font-size: 120%;
 	}
 	#logo{
-		margin: 15px 0 20px 0px;
+		margin: 15px 0 20px -25px;
 		background: url(img/RD_mobile.png) no-repeat center;
 	}
 	nav ul, nav:active ul{
@@ -141,33 +141,6 @@ footer{
 		border-radius: 2px 0 2px 2px;
 		width: 50%;
 	}
-	#education{
-		margin: 0px 0px 0px 0px;
-	}
-	body > div > #educ-content{
-		margin: 0px 0px 0px 0px;
-        }
-	body > div > .container{
-		padding-left: 110px;
-		text-align: left;
-	#skills{
-		margin: 0px 0px 0px 0px;
-	}
-		
-	.connect-font{
-		font-size: 200%;
-		padding: 10px;
-	}	
-
-	#icon{
-		width: 100px;
-		height: auto;
-		padding: 0px;
-	}
-	
-	#contact,#hobbies,#skills, #education {
-		padding: 60px 0 60px 
-	}	
 	nav:hover ul{
 		display: block;
 	}
